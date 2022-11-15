@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  padding: 10px 40px;
+  background: rgba(255, 255, 255, 0.845);
+  position: fixed;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navbar-name h3 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.logo-name {
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.link {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.5s ease-in-out;
+}
+.link:hover {
+  color: blue;
+}
+
+.navbar-link {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 25px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.navbar-link a {
+  color: #000;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+.navbar-link a:hover {
+  color: blue;
+}
+
+.navbar-img {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+
+.navbar-img img {
+  width: 20px;
+}
+
+.bir {
+  /* width: 1500px; */
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.birinchi-bet {
+  padding: 80px;
+  margin-top: 50px;
+}
+
+.birinchi-bet h2 {
+  margin: 10px 35px 80px 0;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: normal;
+}
+
+.birinchi-bet p {
+  padding: 10px 50px 50px 0;
+  font-size: 20px;
+}
+.birinchi-bet p :nth-child(2) {
+  margin: 0 0 0 162px;
+}
+
+.birinchi-img {
+  background: #000;
+  margin-top: 50px;
+}
+.birinchi-img img {
+  width: 100%;
+}
+
+/* ikinchi-section */
+.ikkinchi {
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ikkinchi-img {
+  background: #000;
+  padding: 80px 80px 40px 40px;
+}
+.ikkinchi-img img {
+  width: 700px;
+}
+
+.ikkinchi-bet {
+  padding: 140px 50px 0 50px;
+}
+
+.ikkinchi-bet h4 {
+  font-weight: 100;
+  padding: 20px 20px 20px 0;
+  letter-spacing: 1px;
+}
+
+.ikkinchi-bet h2 {
+  font-size: 25px;
+  padding: 10px 0;
+  letter-spacing: 1px;
+}
+
+/* uchinchi-section */
+.uch {
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.uchinchi-bet {
+  padding: 50px;
+  padding-top: 200px;
+}
+
+.uchinchi-bet h1 {
+  font-size: 65px;
+  padding: 70px 0 0 50px;
+  font-weight: 700;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.uchinchi-img {
+  background: #000;
+  padding: 80px 50px 80px 0;
+  padding-top: 200px;
+}
+.uchinchi-img img {
+  width: 750px;
+}
+
+.tort {
+  background: #fff;
+  color: #000;
+  padding-bottom: 200px;
+}
+
+.tort-navbar {
+  font-size: 50px;
+  text-transform: uppercase;
+  padding: 200px 50px 50px 30px;
+}
+.cardlar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  font-size: 20px;
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.card:hover {
+  transform: translate(0, -50px);
+  margin-top: 10px;
+}
+
+.card h5 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 100;
+  padding: 10px 0;
+}
+.card p {
+  padding: 10px 0;
+}
+.card-main {
+  width: 100%;
+}
+
+/* .card-main:before {
+  display: inline-block;
+  content: "Free Shiping";
+  text-align: center;
+} */
+
+footer {
+  background: #f1f1f1;
+  color: grey;
+}
+
+.oxiri {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  padding: 100px;
+}
+
+.footer-logo h4 {
+  color: #000;
+  font-size: 30px;
+  font-weight: normal;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+.footer-logo input {
+  appearance: none;
+  height: 25px;
+  width: 300px;
+  border: 1px solid #f1f1f1;
+  border-bottom: 1px solid grey;
+  background: #f1f1f1;
+}
+
+.footer-logo img {
+  width: 30px;
+  padding: 0 10px;
+}
+
+.iconlar {
+  padding: 20px 0;
+}
+.iconlar i {
+  width: 25px;
+  padding: 10px;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
+
+.footer-menu1 {
+  list-style-type: none;
+  padding: 20px 50px;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+.footer-menu1 h5 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 100;
+  padding: 0 50px 20px 0;
+  text-transform: uppercase;
+}
+
+footer h3 {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  font-weight: normal;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
